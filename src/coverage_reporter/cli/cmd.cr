@@ -218,7 +218,7 @@ module CoverageReporter::Cli
 
       parser.on("-h", "--help", "Show this help") do
         # TODO: add environment variable notes
-        puts "Coveralls Coverage Reporter v#{CoverageReporter::VERSION}"
+        puts "Coveralls Coverage Reporter v#{CoverageReporter::VERSION} (built with Crystal #{Crystal::VERSION})"
         puts parser
         exit 0
       end
